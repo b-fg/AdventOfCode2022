@@ -1,7 +1,6 @@
 module Day02
 
 using AdventOfCode2022
-using DelimitedFiles
 
 abc = ["A", "B", "C"]
 xyz = ["X", "Y", "Z"]
