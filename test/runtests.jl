@@ -25,3 +25,8 @@ end
     AdventOfCode2022.Day05.day05()
     @test AdventOfCode2022.Day05.day05() == ("RNZLFZSJH", "CNSFCGJSM")
 end
+
+@testset "Day 06" begin
+    AdventOfCode2022.Day06.day06()
+    @test AdventOfCode2022.Day06.day06() == (1287, 3716)
+end
