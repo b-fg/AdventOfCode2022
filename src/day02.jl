@@ -37,7 +37,7 @@ end
 
 function day02(input::String=readInput(joinpath(@__DIR__, "..", "data", "day02.txt")))
     guide = [[readdlm(IOBuffer(play), ' ', String)...] for play ∈ split(strip(input), "\n")]
-    return sum([score_part1(play[1], play[2]) for play in guide]), sum([score_part2(play[1], play[2]) for play in guide])
+    return sum([score_part1(play...) for play ∈ guide]), sum([score_part2(play...) for play ∈ guide])
 end
 
 end # module
