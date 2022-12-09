@@ -1,5 +1,7 @@
 module AdventOfCode2022
 
+# Using https://github.com/goggle/AdventOfCode2021.jl as template
+
 using Revise
 using BenchmarkTools
 using Printf
