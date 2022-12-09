@@ -6,7 +6,7 @@ using DelimitedFiles
 abc = ["A", "B", "C"]
 xyz = ["X", "Y", "Z"]
 
-shape_to_int(p::String) = Int(only(p)) - 64
+shape_to_int(p) = Int(only(p)) - 64
 win(i) = mod(i, 3) + 1
 lose(i) = i - 1 + 3 * Int(i==1)
 

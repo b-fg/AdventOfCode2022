@@ -5,7 +5,7 @@ using BenchmarkTools
 using Printf
 using OutMacro; export @out
 
-solvedDays = [1, 2]
+solvedDays = [1, 2, 3]
 
 # Include the source files:
 for day in solvedDays
