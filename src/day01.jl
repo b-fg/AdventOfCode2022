@@ -1,7 +1,6 @@
 module Day01
 
 using AdventOfCode2022
-using DelimitedFiles
 
 function day01(input::String=readInput(joinpath(@__DIR__, "..", "data", "day01.txt")))
     elf_calories =  [[readdlm(IOBuffer(elf), '\n', Int)...] for elf ∈ split(strip(input), "\n\n")]

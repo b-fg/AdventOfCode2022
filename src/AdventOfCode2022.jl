@@ -6,6 +6,7 @@ using Revise
 using BenchmarkTools
 using Printf
 using OutMacro; export @out
+using DelimitedFiles; export readdlm
 
 solvedDays = [1, 2, 3]
 
