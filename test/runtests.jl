@@ -15,3 +15,8 @@ end
     AdventOfCode2022.Day03.day03()
     @test AdventOfCode2022.Day03.day03() == (7763, 2569)
 end
+
+@testset "Day 04" begin
+    AdventOfCode2022.Day04.day04()
+    @test AdventOfCode2022.Day04.day04() == (475, 825)
+end
