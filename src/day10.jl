@@ -41,8 +41,7 @@ end
 
 function day10(input::String=readInput(joinpath(@__DIR__, "..", "data", "day10.txt")))
     strength, CRT = parse_program(split(strip(input), "\n")) |> signal_strength
-    @out CRT
-    return sum(strength[i] for i ∈ 1:length(strength) if mod(i - 20, 40) == 0)
+    return sum(strength[i] for i ∈ 1:length(strength) if mod(i - 20, 40) == 0), CRT
 end
 
 end # module
