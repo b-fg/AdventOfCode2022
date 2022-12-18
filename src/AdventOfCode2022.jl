@@ -8,7 +8,7 @@ using Printf
 using OutMacro; export @out
 using DelimitedFiles; export readdlm
 
-solvedDays = [i for i ∈ 1:10]
+solvedDays = [i for i ∈ 1:11]
 
 # Include the source files:
 for day in solvedDays
